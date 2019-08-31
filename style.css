@@ -1,0 +1,56 @@
+body {
+    font-family: Quicksand, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+
+}
+header {
+    background-color: darksalmon;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgb(8, 8, 8);
+    position: fixed;
+    width: 100%;
+
+}
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 1rem;
+
+    }
+    header main {
+        padding-top: 6rem;
+        text-align: center;
+    }
+    header h1 { 
+        letter-spacing: 13px;
+    }
+    .about-me {
+        padding: 4rem;
+        line-height: 2;
+        background-color: rgb(8, 8, 8);
+        color: white;
+        text-align: center;
+    }
+    .projects {
+        text-align: center;
+    }
+   .projects img {
+       width: 30%;
+       padding: 30px;
+       box-sizing: border-box;
+       border: 4px rgb(235, 67, 123) solid;
+   }
+  header img {
+      width: 35%;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
